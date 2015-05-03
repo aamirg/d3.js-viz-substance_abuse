@@ -1,0 +1,61 @@
+.line {
+  fill: none;
+  stroke: white;
+  stroke-width: 2.5px;
+}
+
+.axis path,
+.axis line {
+	stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+	fill: none;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 165px;					
+    height: 80px;					
+    padding: 2px;				
+    font: 14px sans-serif;		
+    background: black;	
+	color:white;
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.legend {
+    font-size: 20px;
+    font-weight: bold;
+    text-anchor: middle;
+	cursor:pointer;
+}
+
+#update{position:absolute;z-index:1;cursor:pointer;left:-20px;}
+#update2 {position:absolute;z-index:1;cursor:pointer; left:80px;}
+#update3 {position:absolute;z-index:1;cursor:pointer; left:0px;}
+#update4 {position:absolute;z-index:1;cursor:pointer; left:100px;}
+#update5 {position:absolute;z-index:1;cursor:pointer; left:0px;}
+#update6 {position:absolute;z-index:1;cursor:pointer; left:100px;}
+
+#update:focus {
+    border: 1px dotted gray;
+}
+#update2:focus {
+	border : 1px dotted gray;
+}
+#update3:focus {
+	border : 1px dotted gray;
+}
+#update4:focus {
+	border : 1px dotted gray;
+}
+
+#update5:focus {
+	border : 1px dotted gray;
+}
+#update6:focus {
+	border : 1px dotted gray;
+}

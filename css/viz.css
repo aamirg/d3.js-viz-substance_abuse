@@ -1,0 +1,153 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; 
+	background-color:white;
+	z-index:-1;	
+}
+
+#title{
+float: left;
+width:100%;
+height:104px;
+margin-top:0px;
+margin-bottom:5px;
+color:white;}
+
+#logo{
+position:absolute;
+left:75%;
+float:right;
+width:300px; 
+height:70px;
+background-color:white;
+top:20px;
+}  
+
+#options{
+position:absolute;
+background-color:#4CB2A4;
+opacity: 0.98;
+color:white;
+font-size:20px;
+width:100%;
+height:40px;
+top:2px;
+left:0px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+.option{/* margin:5px 5px 5px 5px; */
+padding:7px 3px 0px 0px;
+top:0px;
+height:27px;
+position:absolute;
+border-style:solid;
+border-color:#4CB2A4;
+text-align:center;
+/* border-style:outset; */}
+
+#opt1{left:17.1%;<!-- left:200px; -->}
+
+#opt2{left:33%;<!-- left:425px; -->}
+
+#opt3{left:51.4%;<!-- left:675px; -->}
+
+#opt4{left:70.7%;<!-- left:885px; -->}
+
+#opt5{left:85.4%;<!-- left:1085px; -->}
+
+#opt6{left:9%;}
+
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+div.option:hover   {color:white; background-color:black; border-color:black; text-decoration:none}
+a:active  {color:white; background-color:gray; text-decoration:none;border-color:gray;}
+
+#help {
+position:absolute;
+right:1.5%;
+top:50px;
+font-size:19px;
+text-decoration:underline;
+color:blue;
+cursor:help;
+background-color:none}
+
+#return{
+position:fixed;
+right:0.5%;
+top:93%;
+font-size:14px;
+text-decoration:underline;
+color:blue;}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  text-anchor:middle;
+ /*   width: 105px;                  
+  height: 45px;  */                
+  padding: 3px;             
+  font-size: 14px;
+  color:white;
+  background: black; 
+  border: 1px;      
+  border-radius: 15px;           
+  pointer-events: none;       
+} 
+
+div.tooltipPie {   
+  position: absolute;           
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  text-anchor:middle;
+ /*   width: 105px;                  
+  height: 45px;  */                
+  padding: 3px;             
+  font-size: 14px;
+  color:white;
+  background: black; 
+  border: 1px;      
+  border-radius: 15px;           
+  pointer-events: none;       
+} 
+
+
+div.TThelp{   
+  position: absolute;           
+  text-align: left;
+  vertical-align: left;
+  display: table-cell;
+  text-anchor:left;
+   width: 325px;                  
+  /*height: 155px;   */               
+  padding: 3px;             
+  font-size: 15px;
+  color:black;
+  background: #FFEF61;
+  border: 1px;      
+  border-radius: 8px;  
+  pointer-events: none;       
+} 
+
+.pagetitle{
+position:absolute;
+background-color:none;
+opacity: 0.98;
+color:black;
+font-size:25px;
+/* width:300px;
+height:40px; */
+top:60px;
+left:40%;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+#update:focus {
+    border: 1px dotted gray;
+}
+#update2:focus {
+	border : 1px dotted gray;
+}
+
