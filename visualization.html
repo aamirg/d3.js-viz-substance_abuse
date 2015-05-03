@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<title>Substance Abuse among Youth</title>
+<style>
+
+div.tooltip {			
+    padding: 2px;
+    font: 18px sans-serif;
+	background: black;
+	opacity:0.7;
+	color:white;
+    pointer-events: none;
+	z-index:5;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="css\diagrams.css">
+<link rel="stylesheet" type="text/css" href="css\viz.css">
+<link rel="stylesheet" type="text/css" href="css\linechart.css">
+
+</head>
+
+<body>
+
+<div id="options">
+<a id="top"></a>
+<div class="option" id="opt6"> <a href="index.html">Home</a></div>
+<div class="option" id="opt1"> <a href="#options">Drug user trends</a></div>
+<div class="option" id="opt2"> <a href="#title2"> Initiation & Sources</a></div>  
+<div class="option" id="opt3"> <a href="#title4"> Users by Age & State</a></div>
+<div class="option" id="opt4"><a href="#title6">  Effects of Drugs</a></div> 
+<div class="option" id="opt5"><a href="about.html"> About</a></div>
+</div>
+
+<div class="boundary" id="sep1" style="position:absolute;height:10px;width:100%;background-color:#4CB2A4;top:675px;"></div>
+<div class="boundary" id="sep1" style="position:absolute;height:10px;width:100%;background-color:#4CB2A4;top:2060px;"></div>
+<div class="boundary" id="sep1" style="position:absolute;height:10px;width:100%;background-color:#4CB2A4;top:3560px;"></div>
+
+<div class="pagetitle" id="title1" style="left:28%">Illegal & Prescription Drug user trends : Age 12+  </div>
+
+<div id="detail">
+<p style="font-size:17px" >The Line chart shows trends for Illicit and Prescription drug abuse through years 2002-2013. Illicit drugs are those whose usage is banned by law whereas Prescription drugs are those that are used to treat medical conditions. In 2013, current illicit drug users equalled 24.6 million and non-medical users of
+prescription drugs was 6.5 million. These numbers have been rising steadily from 2008 especially Marijuana usage. With some states
+legalizing Marijuana this number is set to grow proportionally. </p><p style="font-size:14px"> Click on the buttons to switch between drug categories. 
+By clicking on the drug names their respective trend lines can be filtered.The points on the line can be clicked on to show detailed values of total US population & their percentages,click the point again to close the window. Multiple points can be clicked on to compare the values.</p>
+</div>
+<input id="update"type="Button" value="Illegal drugs" style="top:222px;left:40%"/>
+<input id="update2" type="Button" value="Prescription drugs" style="top:222px;left:48%">
+
+
+<div id="linechart" style="height:510px"></div>
+
+<div class="pagetitle" id="title2" style="left:30%;top:723px;">Initiation of illicit drugs with mean age: 2013</div>
+
+<div id="detail1">
+<p>This Bar graph shows the estimates for 2013 of first time use of a specific drug by a user. In 2013, an estimated 2.8 million persons aged 12 
+or older used an illicit drug for the first time; this averages to about 7,800 new users per day. The average age at first use for each drug is 
+represented by color of the bar. Adolescent Substance abuse has far ranging repercussions like affecting 
+physical & mental health,academics,career prospects and incarceration.</p>
+<p style="font-size:14px"> Hover on the bars to see the exact values. Scroll down to view common sources of drugs.</p>
+</div>
+
+<div id="bargraph"></div>
+
+<div class="pagetitle" id="title3" style="top:1390px;left:45%">Sources of Drugs</div>
+
+<div id="detail2">
+<p>One of the reasons for high rates of substance abuse among youth is due to ease of availability of drugs. The Pie chart below shows the common primary and secondary sources of obtaining illicit & prescription drugs. 
+The secondary source shows where the Friend or relative of the primary user obtained the drugs from. Other category includes the sources "Wrote Fake Prescription," "Stole from Doctor's
+Office/Clinic/Hospital/Pharmacy," and "Some Other Way."</p>
+</div>
+
+<div id="transitionbutton">
+	<input id="update5"type="Button" value="Primary Sources" style="top:1635px;left:19.5%"/ />
+	<input id="update6"type="Button" value="Secondary Sources" style="top:1685px;left:19%"/>
+		  </div> 
+
+<div id="piechart"></div>		
+
+<div class="pagetitle" id="title4" style="top:2125px;left:40%">Drug abuse trends by Age</div>  
+	
+<div id="detail3">
+<p>Here we see a breakdown of drug abuse by age range. The Line chart shows trends for commonly used drugs, among age groups 12-17 and 18-25 
+through years 2002-2013. Although the trend shows signs of decline among the age group 12-17 the rate of abuse in 18-25 category is very high.
+</p><p style="font-size:14px">Scroll down to view State-wise estimates for 2013. Click on the buttons to switch between age groups. 
+By clicking on the drug names their respective trend lines can be filtered. The points on the line can be clicked on to show detailed values for total 
+US population of that year & the percentage of users,click the point again to close the window.Multiple points can be clicked on to compare the values.</p>
+</div>	
+
+<div id="transitionbutton2">
+	<input id="update3" type="Button" value="Age 12 - 17" style="top:2295px;left:43%" />
+	<input id="update4" type="Button" value="Age 18 - 25" style="top:2295px;left:51%" />
+		  </div>		 
+
+<div id="linechart1" style="height:510px"></div>
+
+<div class="pagetitle" id="title5" style="left:35%;top:2850px">Statewise Drug abuse estimates: 2013 </div>
+
+<div id="detail4">
+<p>The Choropleth map below shows State-wise statistics for drug abuse among age groups 12-17 and 18-25 for the year 2013.States of California,Texas show a high number of users in both age groups.
+</p><p style="font-size:14px"> The states can be clicked on to show detailed values for total 
+state population & the number of current users,click the state again to close the window. Multiple states can be clicked on to compare the values. Transitioning between the age groups is done by clicking on the buttons above.</p>
+</div>
+
+<div id="choropleth"></div>
+
+<div class="pagetitle" id="title6" style="left:40%;top:3580px">Adverse Health Effects of Drugs</div>
+
+<div id="detail5">
+<p>More deaths, illnesses and disabilities stem from substance abuse than from any other preventable health condition. 
+Today, one in four deaths is attributable to illicit drug use. The Chord diagram below shows the adverse health effects of Illicit drugs. Most of them permanently damage the body, such as liver/kidney damage, make your body unable to fight off infection, 
+make your heart beat too fast, cause your body temperature to get so high you could damage your brain, cause a stroke, and even cause death.</p>
+<p style="font-size:14px">The drug names are shown in red on the right side whereas body systems are shown on the left side in blue. By hovering on the right half on a drug name we can see how a specific drug affects different body systems. This interaction also opens a detailed view of the health effects.
+By hovering on the left half we can see how body parts are affected by drugs.</p>
+</div>
+
+<div id="chorddiagram"></div>
+<div id="bodyimages"></div>
+
+		 
+<a href="#options"><img id="return" src="img\back_to_top.png" alt="Back to Top" style="width:42px;height:42px;border:0"></a>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+
+diagram1();
+diagram2();
+diagram3();
+diagram4();
+diagram5();
+
+function diagram1(){ 
+
+var margin={top:180, right:0, left:50, bottom:20};
+var width=1050-margin.left-margin.right;
+var height1=450-margin.bottom-margin.top;
+
+//append a div for tooltip to appear on Hover
+var div1 = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+
+var parseYear = d3.time.format("%Y").parse;
+
+var x=d3.time.scale()
+	.range([0,width]);
+
+var y=d3.scale.linear()
+	.range([height1-5,0]);
+
+var color= d3.scale.category10();
+
+var xAxis=d3.svg.axis()
+	.scale(x)
+	.orient("bottom")
+	.ticks(15);
+
+var yAxis=d3.svg.axis()
+	.scale(y)
+	.orient("left");	
+
+var line = d3.svg.line()
+    .x(function(d) { return x(d.Year);})
+    .y(function(d) { return y(d.fertirate);});
+	
+var svg = d3.select("#linechart").append("svg")  //#linechart
+.attr("width",width+margin.left+margin.right+100)
+.attr("height",height1+margin.top+margin.bottom+50)
+.append("g")
+.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+//Default function that will run on load Linechart
+d3.tsv("data/Current_Users1.tsv",function(error,data) {
+
+var dnames=[];
+color.domain(d3.keys(data[0])
+.filter(function(key) {
+			
+			if(key!="Year")
+			{
+				if(key!="Population")
+				{
+					{
+					dnames.push(key);
+					return key;}}}		
+			}));
+
+// spacing for the legend
+legendSpace = width/dnames.length; 		
+legendSpace = legendSpace + 15;	
+
+data.forEach(function(d) {
+	d.Year = parseYear(d.Year);
+	});
+
+var drugs = color.domain()
+			.map(function (name) {
+			return {
+			name : name,
+			values : data.map(function (d) {
+			return {Year: d.Year, fertirate: +d[name]};})
+			};
+	});
+
+x.domain(d3.extent(data, function(d) { return d.Year; }));
+y.domain([0,d3.max(drugs, function(c) { return d3.max(c.values, function(v) { return v.fertirate; }); })]);
+
+svg.append("g")
+   .attr("class", "x axis")
+   .attr("transform", "translate(0," + height1 + ")")
+   .call(xAxis)
+   .append("text")
+   .text("Year")
+   .attr("x", 480)
+   .attr("y",10)
+   .style("font-size",19+"px")
+   .attr("dy", "2.9em");
+
+svg.append("g")
+   .attr("class", "y axis")
+   .call(yAxis)
+   .append("text")
+   .attr("transform", "rotate(-90)")
+   .attr("x",-10)
+   .attr("y", -40)
+   .attr("dy", ".35em")
+   .style("text-anchor", "end")
+   .style("font-size",19+"px")
+   .text("Percentage of Current Users");
+
+drugs.forEach(function(d, i) {
+
+	//LEGEND
+	svg.append("text")
+   .attr("x", function(){
+   a=(legendSpace/2)+i*legendSpace;
+   if(i==0){a=a-45;}
+   return a;})  // space legend
+            .attr("y", (margin.top)-220)
+            .attr("class", "legend")   // style the legend
+            .style("fill", function() { // Add the colours dynamically
+                return d.color = color(d.name); })
+			.attr("text-decoration","underline")
+			
+	 .on("click", function(){
+                // Determine if current line is visible 
+                var active   = d.active ? false : true,
+                newOpacity = active ? 0.3: 1;
+				var color = active ? "grey" : d.color;
+				var circleradius=active ? 0 : 4.5;
+				
+				d3.selectAll(".tooltip").remove();
+				 
+				 d3.select(this).transition().duration(100)
+                    .style("opacity", newOpacity);
+				
+                // Hide or show the elements based on the ID
+                d3.select("#tag"+d.name.replace(/\s+/g, ''))
+                    .transition().duration(100) 
+					//.style("stroke",color)
+                    .style("opacity", newOpacity); 
+
+	d3.selectAll("g")
+		.selectAll(".series"+d.name.replace(/\s+/g, ''))
+		.selectAll("circle")
+		.attr("r",circleradius);
+		
+		d3.selectAll("g").selectAll("circle").style("stroke-width",0);
+
+                // Update whether or not the elements are active
+                d.active = active;
+                })
+            .text(d.name); 
+			
+			
+			svg.append("path")
+      .attr("class", "line")
+      .attr("d", line(d.values))
+      .style("stroke", d.color)
+	  .attr("id", 'tag'+d.name.replace(/\s+/g, '')); // assign ID
+    });
+    });
+
+//SCATTER PLOT CODE
+
+var z = d3.scale.category10();
+d3.tsv("data/Current_Users1.tsv", function(data) {
+
+//Compute the series names ("y1", "y2", etc.) from the loaded CSV.
+var seriesNames = d3.keys(data[0])
+.filter(function(key) { 
+if(key!="Year")
+{
+	if(key!="Population")
+	{ {
+		return key;
+	} }
+} 
+    });
+
+// Map the data to an array of arrays of {x, y} tuples.
+  var series = seriesNames.map(function(series) {
+    return data.map(function(d, i) {
+      return {x: +d.Year, y: +d[series], t: +d.Population, drugname: seriesNames[i]};
+    });
+  });
+
+// Compute the scales’ domains.
+x.domain(d3.extent(d3.merge(series), function(d) { return d.x; }));
+y.domain([0,d3.max(d3.merge(series), function(c) { return c.y;})]);
+
+var drugname1 = 0;
+var cnt = 0;
+
+// Add the points! SCATTER PLOT
+svg.selectAll(".series")
+    .data(series)
+    .enter().append("g")
+    .attr("class", function(d, i) { drugname1=seriesNames[i];
+	 return "series"+drugname1.replace(/\s+/g, ''); })
+    .style("fill", function(d, i) { return z(i); })
+	.selectAll(".points")
+    .data(function(d) { return d; })
+    .enter().append("circle")
+    .attr("id", function(d, i) {temp = "points" + cnt; cnt = cnt + 1; return temp;  })
+    .attr("r", 4.5)
+    .attr("cx", function(d) { return x(d.x); })
+    .attr("cy", function(d) { return y(d.y); })
+	.style("stroke","black")
+	.style("stroke-width",0)
+	.on("click", function(d){
+		var active   = d.active ? false : true,
+        newOpacity = active ? 0 : 1;
+		var strokeWidth = active? 2:0;
+		d3.select(this).transition().duration(300).style("stroke-width",strokeWidth);
+		var id = (this.id)
+		
+		if(active == true) {
+			
+		//append div for tooltip
+		var div = d3.select("body").append("div")	
+				.attr("class", "tooltip")				
+				.attr("id", "div" + id)
+				.style("opacity", 1);
+				
+		div.html("Values in Millions -"+"<br><br>"+"Total Population : " + d.t + "<br>" + "Current Users : " + parseFloat(((d.y * d.t)/100)).toFixed(2) + "<br>" + "Percentage: " + d.y + "%")	
+        .style("left", (d3.event.pageX + 20) + "px")		
+        .style("top", (d3.event.pageY - 68) + "px");		
+	}
+		else{
+			temp = "#div" + id.replace(/ +/g,"");
+			d3.selectAll(temp).remove(); }
+
+			d.active = active;
+	  });
+});
+//END OF SCATTERPLOT
+
+//TRANSITION CODE
+
+//var count=0;
+d3.select("#update")
+.on("click", function () { transition("data/Current_Users1.tsv"); });
+
+d3.select("#update2")
+.on("click", function () { transition("data/Current_Users2.tsv"); });
+
+function transition(s) {
+
+d3.selectAll(".tooltip").remove();
+
+//append div for tooltip
+var div1 = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+
+svg.selectAll(".seriesStimulants").remove();
+svg.selectAll(".seriesPainRelievers").remove();
+svg.selectAll(".seriesTranquilizers").remove();
+svg.selectAll(".seriesSedatives").remove();
+svg.selectAll(".seriesIllicitDrugs").remove();
+svg.selectAll(".seriesMeth").remove();
+svg.selectAll(".seriesMarijuana").remove();
+svg.selectAll(".seriesCocaine").remove();
+svg.selectAll(".seriesHallucinogens").remove();
+svg.selectAll(".seriesPsychotherapeutics").remove();
+
+/*count=count+1;
+if (count%2==0)
+{s="data/Current_Users1.tsv";
+//d3.select("#update").attr("value","View Legal drugs user trends");
+}
+else{s="data/Current_Users2.tsv"; //d3.select("#update").attr("value","View Illegal drugs user trends"); 
+} */
+
+var parseYear = d3.time.format("%Y").parse;
+var color = d3.scale.category10();
+
+d3.tsv(s,function(error,data) {
+var dnames=[];
+color.domain(d3.keys(data[0]).filter(function(key) {
+		if(key!="Year")
+		{
+			if(key!="Population")
+			{
+			dnames.push(key);
+				return key;
+			}
+		}
+}));
+
+// spacing for the legend
+
+legendSpace = width/dnames.length; 		
+legendSpace = legendSpace + 15;	
+	
+data.forEach(function(d) {
+	d.Year = parseYear(d.Year);
+		});
+	
+var x=d3.time.scale()
+	.range([0,width]);
+
+var y=d3.scale.linear()
+	.range([height1-5,0]);	
+
+	var line = d3.svg.line()
+    .x(function(d) { return x(d.Year);})
+    .y(function(d) { return y(d.fertirate);});
+
+var drugs = color.domain()
+			.map(function (name) {
+			return {
+			name : name,
+			values : data.map(function (d) {
+			return {Year: d.Year, fertirate: +d[name]};
+			})
+		};
+	});
+	x.domain(d3.extent(data, function(d) { return d.Year;}));	
+	y.domain([0,d3.max(drugs, function(c) { return d3.max(c.values, function(v) { return v.fertirate; }); })]);
+			
+	var xAxis=d3.svg.axis()
+	.scale(x)
+	.orient("bottom")
+	.ticks(15);
+	
+	var yAxis=d3.svg.axis()
+	.scale(y)
+	.orient("left");
+	
+svg.select(".y.axis")
+.transition()
+.duration(1000)
+.ease("linear")
+.call(yAxis);
+
+svg.selectAll(".line")
+	  .data(drugs)
+      .transition()
+      .duration(1000)
+      .ease("linear")
+      .attr("d",function(d) { return line(d.values); })
+	  .attr("id", function(d) { return 'tag'+d.name.replace(/\s+/g, '');}) 
+      .style("stroke",function(d,i) { return color(d.name); })
+	  .style("opacity",1);
+	  
+svg.selectAll(".legend")
+	.data(drugs)
+    .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
+    .transition()
+    .duration(500)
+    .ease("linear")
+    .attr("x", function(d, i){
+	a=(legendSpace/2)+i*legendSpace;
+	if(i==0){a=a-45;}
+	return a; })
+	.attr("y", (margin.top)-220)
+	.style("fill", function(d) { return d.color = color(d.name); })
+	.style("opacity",1)
+	.text(function(d) { return d.name; });
+	
+svg.selectAll(".legend")
+	.data(drugs)
+	.on("click", function(d){
+      // Determine if current line is visible 
+		var active   = d.active ? false : true,
+                
+		newOpacity = active ? 0.3 : 1;
+		var circleradius=active ? 0 : 4.5;
+		color1 = active ? "grey" : color(d.name);
+        d3.selectAll(".tooltip").remove();
+	  // Hide or show the elements based on the ID
+		d3.select(this).transition().duration(100)
+                    .style("opacity", newOpacity);
+					
+    d3.select("#tag"+d.name.replace(/\s+/g, ''))
+	.transition().duration(100) 
+	//.style("stroke",color1)
+    .style("opacity", newOpacity); 
+		
+	d3.selectAll("g")
+	.selectAll(".series"+d.name.replace(/\s+/g, ''))
+	.selectAll("circle")
+	.attr("r",circleradius);
+	
+	d3.selectAll("g").selectAll("circle").style("stroke-width",0);
+     // Update whether or not the elements are active
+     d.active = active;
+    });
+			
+});	
+
+svg.selectAll("circle").remove();
+
+var parseYear = d3.time.format("%Y").parse;
+var z = d3.scale.category10();	
+	
+//TRANSITION SCATTER PLOT	
+
+d3.tsv(s, function(data)
+{
+
+// Compute the series names ("y1", "y2", etc.) from the loaded CSV.
+  var seriesNames = d3.keys(data[0])
+      .filter(function(key) { 
+	  if(key!="Year")
+			{
+				if(key!="Population")
+				{{return key;}}} });
+
+  // Map the data to an array of arrays of {x, y} tuples.
+  var series = seriesNames.map(function(series) {
+    return data.map(function(d, i) {
+      return {x: +d.Year, y: +d[series], t: +d.Population, drugname: seriesNames[i]};
+    });
+  });
+
+  // Compute the scales’ domains.
+x.domain(d3.extent(d3.merge(series), function(d) { return d.x; }));
+y.domain([0,d3.max(d3.merge(series), function(c) { return c.y;}) ]);
+    	
+	var drugname1 = 0;
+	var offset = 0;
+	var cnt=0;
+	
+  // Add the points! SCATTER PLOT
+  svg.selectAll(".series")
+    .data(series)
+    .enter().append("g")
+    .attr("class", function(d, i) { drugname1=seriesNames[i];
+	 return "series"+drugname1.replace(/\s+/g, ''); })
+    .style("fill", function(d, i) { return z(i); })
+    .style("opacity",0)
+	.selectAll(".points")
+    .data(function(d) { return d; })
+    .enter().append("circle")
+	.attr("id", function(d, i) {temp = "points" + cnt; cnt = cnt + 1; return temp;  })
+   //.attr("class", function(d) { return "points"; })
+      .attr("r", 4.5)
+      .attr("cx", function(d) { return x(d.x); })
+      .attr("cy", function(d, i) { return y(d.y)})
+	  .style("stroke","black")
+	  .style("stroke-width",0)
+	  .on("click", function(d){
+			var active   = d.active ? false : true,
+            newOpacity = active ? 0 : 1;
+			var strokeWidth = active? 2:0;
+			d3.select(this).transition().duration(300).style("stroke-width",strokeWidth);
+			var id = (this.id)
+			//var temp1 = "#div" + id;
+			
+			if(active == true) {
+			
+			//append div for tooltip
+			var div = d3.select("body").append("div")	
+				.attr("class", "tooltip")				
+				.attr("id", "div" + id)
+				.style("opacity", 1);
+				
+			div	.html("Values in Millions -"+"<br><br>"+"Total Population : " + d.t + "<br>" + "Current Users : " + parseFloat(((d.y * d.t)/100)).toFixed(2) + "<br>" + "Percentage: " + d.y + "%")	
+                .style("left", (d3.event.pageX + 20) + "px")		
+                .style("top", (d3.event.pageY - 68) + "px");		
+			}
+			else{
+			temp = "#div" + id.replace(/ +/g,"");
+			d3.select(temp).remove();
+			}
+			d.active = active;
+	  });
+
+svg.selectAll(".seriesStimulants").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesPainRelievers").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesTranquilizers").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesSedatives").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesIllicitDrugs").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesMeth").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesMarijuana").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesCocaine").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesHallucinogens").transition().delay(1000).style("opacity",1);
+svg.selectAll(".seriesPsychotherapeutics").transition().delay(1000).style("opacity",1);
+		
+	});
+  } //); // end of function
+ }//end of Diagram1
+
+
+function diagram2() {
+
+var margin = {top: 20, right: 0, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height2 = 420 - margin.top - margin.bottom;
+
+var div = d3.select("body").append("div")	
+    .attr("class", "tooltipPie")				
+    .style("opacity", 0);	
+	
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width+200], .1, 0.4);
+
+var y = d3.scale.linear()
+    .range([height2, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(15);
+	
+var color = d3.scale.category20();
+
+var svg1 = d3.select("#bargraph").append("svg")
+    .attr("width", width + margin.left + margin.right+300)
+    .attr("height", height2 + margin.top + margin.bottom +80)
+  .append("g")
+    .attr("transform", "translate(" + (margin.left+110) + "," + (margin.top+20) + ")");
+
+d3.tsv("data/agedata.tsv", function(error, data) {
+
+  data.forEach(function(d) {
+    d.percentage = +d.percentage;
+  });
+
+  x.domain(data.map(function(d) { return d.drug; }));
+  y.domain([0, d3.max(data, function(d) { return d.percentage+200; })]);
+
+  svg1.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height2+ ")")
+	  //.attr("transform", "rotate(-65)")
+      .call(xAxis).selectAll(".tick text")
+      .call(wrap, x.rangeBand());
+
+  svg1.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", -70)
+	  .attr("x",-100)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+	  .style("font-size",19)
+      .text("Values in Thousands");
+	  
+	svg1.append("g")
+      .attr("class", "x axis")
+      //.call(xAxis)
+    .append("text")
+	.attr("x",550)
+      .attr("y", 420)
+      .attr("dy", ".71em")
+      .style("text-anchor", "middle")
+	  .style("font-size",19)
+      .text("Drug Names");
+
+  svg1.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return (x(d.drug)+17); })
+      .attr("width", x.rangeBand()-35)
+      .attr("y", function(d) { return (y(d.percentage)-1); })
+      .attr("height", function(d) { return height2 - y(d.percentage); })
+	  .style("fill",function(d) { 
+	  if (d.age<=18.4) {return "#FF6C63";};
+	  
+	  if (d.age>18.4) 
+	  { if (d.age<=19.8) 
+		{return "#955AE8";};
+	  }
+	  
+	  if (d.age>19.8) 
+	  { if (d.age<=20.8) {return "#70E3FF";}
+			}
+			
+	 if (d.age>20.9) 
+	  { if (d.age<21.9) {return "#68E85A";}
+			}
+			
+	if (d.age>=22) 
+	  { {return "#FFDC4E";}
+			}	
+		   
+		   })
+	  .on("mouseover", function(d) {		
+            div.transition()		
+                .duration(2)		
+                .style("opacity", .9);
+				
+            div.html("Mean age : "+d.age+ "<br><br>"+"No. of Initiates : " + (d.percentage)+",000")	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px")
+				.style("height",50+'px')
+				//.style("background",d.properties.color);	
+            })	
+
+        .on("mouseout", function(d) {
+            div.transition()	
+                .duration(500)
+                .style("opacity", 0);
+});
+
+ var rect = svg1.append("rect")
+.attr("width",300)
+.attr("height",300)
+.attr("x",700)
+.attr("y",10)
+.attr("fill","none");
+ 
+
+ svg1.append("text").text("Mean Age Legend").attr('x', '750')
+        .attr('y', '23').style("fill","black").style("font-size",21);
+		
+svg1.append("text").text("17.0 - 18.4").attr('x', '780')
+        .attr('y', '60').style("fill","#FF6C63").style("font-size",19).style("font-weight","bold");
+		
+svg1.append("text").text("18.5 - 19.8").attr('x', '780')
+        .attr('y', '90').style("fill","#955AE8").style("font-size",19).style("font-weight","bold");
+		
+svg1.append("text").text("19.9 - 20.8").attr('x', '780')
+        .attr('y', '120').style("fill","#70E3FF").style("font-size",19).style("font-weight","bold");
+		
+svg1.append("text").text("20.9 - 21.9").attr('x', '780')
+        .attr('y', '150').style("fill","#68E85A").style("font-size",19).style("font-weight","bold");
+
+svg1.append("text").text("22.0 - 25.5").attr('x', '780')
+        .attr('y', '180').style("fill","#FFDC4E").style("font-size",19).style("font-weight","bold");
+
+});
+
+
+
+
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }}
+     });
+}
+
+
+}//end of diagram2
+
+
+function diagram3() { 
+
+var div1 = d3.select("body").append("div")	
+    .attr("class", "tooltipPie")
+    .style("opacity", 0);	
+	
+var width = 960,
+    height = 450,
+    radius = Math.min(width, height) / 2;
+
+var color = d3.scale.category20();	
+//d3.select("#update").attr("value","Transition");
+
+var arc = d3.svg.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(130);
+
+var pie = d3.layout.pie()
+    .sort(null)
+    .value(function(d) { return d.percentage; });
+
+
+function tweenPie(finish) {
+        var start = {
+                startAngle: 0,
+                endAngle: 0
+            };
+        var i = d3.interpolate(start, finish);
+        return function(d) { return arc(i(d)); };
+    }
+
+var svg = d3.select("#piechart").append("svg")
+    .attr("width", 1200)
+    .attr("height", 1020)
+  .append("g")
+    .attr("transform", "translate(" + (width + 400) / 2 + "," + ((height + 600) / 2) + ")");
+
+
+d3.csv("data/piedata1.csv", function(error, data) {
+
+
+data.forEach(function(d) {
+    d.percentage = +d.percentage;
+  });
+
+var g = svg.selectAll(".arc")
+	.data(pie(data))
+	.enter().append("g")
+    .attr("class", "arc");
+	
+g.append("path")
+    .attr("d", arc)
+    .style("fill", function(d) { return color(d.data.source); })
+    .transition()
+    .duration(500)
+    .attrTween('d', tweenPie);
+
+g.select("path")
+      .data(pie(data))
+	  .on("mouseover", function(d) {	
+            
+			div1.transition()		
+                .duration(2)		
+                .style("opacity", 0.9);
+				
+            div1.html("Source: " + d.data.source + "<br><br>" + "Value: " + d.data.percentage+" %")	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 8) + "px");
+            })				
+        .on("mouseout", function(d) {
+            div1.transition()	
+                .duration(500)
+                .style("opacity", 0);
+        });     		
+
+var innerRadius = 0;
+var outerRadius = 60;
+
+  g.append("text")
+  .attr("x", 15)
+.each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+  .attr("dy", ".35em")
+  .attr("transform", function(d) {
+    return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+        + "translate(" + (outerRadius + 150) + ")"
+		+ (d.angle > Math.PI ? "rotate(180) " + "translate(" + (outerRadius - 88) + ")" : "");
+  })
+  .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+  .style("font-family","sans-serif")
+.text(function(d, i) { return d.data.source; });
+
+g.append("text")
+      .attr("transform", function(d) { return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+        + "translate(" + (outerRadius + 130) + ")"
+		+ (d.angle > Math.PI ? "rotate(180) " + "translate(" + (outerRadius - 60) + ")" : ""); })
+      .attr("dy", ".35em")
+      .style("text-anchor", "middle")
+      .text(function(d) { return (d.data.percentage+" %"); });
+	  
+g.append("text")
+.attr("y",-15)
+.attr("dy", ".35em")
+.style("font-size",24)
+.style("text-anchor","middle")
+.text("Source where User");
+
+g.append("text")
+.attr("y",15)
+.attr("dy", ".35em")
+.style("font-size",24)
+.style("text-anchor","middle")
+.text("obtained drugs from");
+});
+
+
+//TRANSITION CODE
+
+//var count=0;
+d3.selectAll("#update5")
+.on("click", function () { transition("data/piedata1.csv" )});
+
+d3.selectAll("#update6")
+.on("click", function () { transition("data/piedata2.csv") });
+
+function transition(s) {
+/*count=count+1;
+if (count%2==0)
+{s="data/piedata1.csv"}
+else{s="data/piedata2.csv"} */
+
+svg.selectAll("g").remove();
+
+d3.csv(s, function(error, data) {
+
+  data.forEach(function(d) {
+    d.percentage = +d.percentage;
+  });
+  
+  var g = svg.selectAll(".arc")
+      .data(pie(data))
+    .enter().append("g")
+      .attr("class", "arc");
+	//.transition().duration(1000);
+	
+  g.append("path")
+      .attr("d", arc)
+      .style("fill", function(d) { return color(d.data.source); })
+	.transition()
+    .duration(500)
+    .attrTween('d', tweenPie)	  
+	  
+g.select("path")
+.data(pie(data))
+	  .on("mouseover", function(d) {	
+            div1.transition()		
+                .duration(2)		
+                .style("opacity", .9)
+            div1.html("Source: " + d.data.source + "<br>" + "Value: " + d.data.percentage+" %")	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 8) + "px")
+				;	
+            })				
+        .on("mouseout", function(d) {
+            div1.transition()	
+                .duration(500)
+                .style("opacity", 0);
+        });     		
+
+var innerRadius = 0;
+var outerRadius = 60;
+  g.append("text")
+  .attr("x", 15)
+.each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+  .attr("dy", ".35em")
+  .attr("transform", function(d) {
+    return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+        + "translate(" + (outerRadius + 150) + ")"
+		+ (d.angle > Math.PI ? "rotate(180) " + "translate(" + (outerRadius - 88) + ")" : "");
+  })
+  .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+.text(function(d, i) { return d.data.source; });
+
+g.append("text")
+
+      .attr("transform", function(d) { return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+        + "translate(" + (outerRadius + 130) + ")"
+		+ (d.angle > Math.PI ? "rotate(180) " + "translate(" + (outerRadius - 60) + ")" : ""); })
+      .attr("dy", ".35em")
+      .style("text-anchor", "middle")
+      .text(function(d) { return (d.data.percentage+" %"); });
+	  
+	  
+if (s=="data/piedata1.csv")
+{ g.append("text")
+.attr("y",-15)
+.attr("dy", ".35em")
+.style("font-size",24)
+.style("text-anchor","middle")
+.text("Source where User");
+
+g.append("text")
+.attr("y",15)
+.attr("dy", ".35em")
+.style("font-size",24)
+.style("text-anchor","middle")
+.text("obtained drugs from"); }
+
+else { g.append("text")
+.attr("y",-15)
+.attr("dy", ".35em")
+.style("font-size",20)
+.style("text-anchor","middle")
+.text("Source where User's Friend or");
+
+g.append("text")
+.attr("y",15)
+.attr("dy", ".35em")
+.style("font-size",20)
+.style("text-anchor","middle")
+.text(" Relative obtained drugs from");}
+
+});
+}
+
+
+
+} //end of diagram3
+
+function diagram4() {
+
+var margin={top:180, right:0, left:50, bottom:20};
+var width=1050-margin.left-margin.right;
+var height=450-margin.bottom-margin.top;
+
+//append a div for tooltip to appear on Hover
+var div1 = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+
+var parseYear = d3.time.format("%Y").parse;
+
+var x=d3.time.scale()
+	.range([0,width]);
+
+var y=d3.scale.linear()
+	.range([height-5,0]);
+
+var color= d3.scale.category10();
+
+var xAxis=d3.svg.axis()
+	.scale(x)
+	.orient("bottom")
+	.ticks(15);
+
+var yAxis=d3.svg.axis()
+	.scale(y)
+	.orient("left").ticks(13);	
+
+var line = d3.svg.line()
+    .x(function(d) { return x(d.Year);})
+    .y(function(d) { return y(d.fertirate);});
+	
+var svg = d3.select("#linechart1").append("svg")  //#linechart
+.attr("width",width+margin.left+margin.right+100)
+.attr("height",height+margin.top+margin.bottom+50)
+.append("g")
+.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.append("text")
+.attr("id","ageid")
+			.attr("x",width/2-12)
+			.attr("y",-68)
+			.text("Age: 12 to 17")
+			.style("font-size",21);
+
+//Default function that will run on load Linechart
+d3.tsv("data/12to17.tsv",function(error,data) {
+
+var dnames=[];
+color.domain(d3.keys(data[0])
+.filter(function(key) {
+			
+			if(key!="Year")
+			{
+				if(key!="Population")
+				{
+					{
+					dnames.push(key);
+					return key;}}}		
+			}));
+
+// spacing for the legend
+legendSpace = width/dnames.length; 		
+legendSpace = legendSpace + 15;	
+
+data.forEach(function(d) {
+	d.Year = parseYear(d.Year);
+	});
+
+var drugs = color.domain()
+			.map(function (name) {
+			return {
+			name : name,
+			values : data.map(function (d) {
+			return {Year: d.Year, fertirate: +d[name]};})
+			};
+	});
+
+x.domain(d3.extent(data, function(d) { return d.Year; }));
+y.domain([0,d3.max(drugs, function(c) { return d3.max(c.values, function(v) { return v.fertirate; }); })]);
+
+svg.append("g")
+   .attr("class", "x axis")
+   .attr("transform", "translate(0," + height + ")")
+   .call(xAxis)
+   .append("text")
+   .text("Year")
+   .attr("x", 525)
+   .attr("y",10)
+   .style("font-size",19+"px")
+   .attr("dy", "2.9em");
+
+svg.append("g")
+   .attr("class", "y axis")
+   .call(yAxis)
+   .append("text")
+   .attr("transform", "rotate(-90)")
+   .attr("x",-2)
+   .attr("y", -40)
+   .attr("dy", ".35em")
+   .style("text-anchor", "end")
+   .style("font-size",19+"px")
+   .text("Percentage of Current Users");
+   
+drugs.forEach(function(d, i) {
+	//LEGEND
+	svg.append("text")
+   .attr("x", function(){
+   a=(legendSpace/2)+i*legendSpace;
+   if(i==0){a=a-45;}
+   return a;})  // space legend
+            .attr("y", (margin.top)-210)
+            .attr("class", "legend")   // style the legend
+            .style("fill", function() { // Add the colours dynamically
+                return d.color = color(d.name); })
+			.style("text-decoration","underline")
+	 .on("click", function(){
+                // Determine if current line is visible 
+                var active   = d.active ? false : true,
+                newOpacity = active ? 0.3 : 1;
+				var color = active ? "grey" : d.color;
+				var circleradius=active ? 0 : 4.5;
+				
+				d3.select(this).transition().duration(100)
+                    .style("opacity", newOpacity);
+				d3.selectAll(".tooltip").remove();
+								
+                // Hide or show the elements based on the ID
+                d3.select("#tag1"+d.name.replace(/\s+/g, ''))
+                    .transition().duration(100) 
+					//.style("stroke",color)
+                    .style("opacity", newOpacity); 
+
+	d3.selectAll("g")
+		.selectAll(".series1"+d.name.replace(/\s+/g, ''))
+		.selectAll("circle")
+		.attr("r",circleradius);
+		
+		d3.selectAll("g").selectAll("circle").style("stroke-width",0);
+
+                // update3 whether or not the elements are active
+                d.active = active;
+                })
+            .text(d.name); 
+			
+			
+			svg.append("path")
+      .attr("class", "line")
+      .attr("d", line(d.values))
+      .style("stroke", d.color)
+	  .attr("id", 'tag1'+d.name.replace(/\s+/g, '')); // assign ID
+    });
+    });
+
+//SCATTER PLOT CODE
+
+var z = d3.scale.category10();
+d3.tsv("data/12to17.tsv", function(data) {
+
+//Compute the series names ("y1", "y2", etc.) from the loaded CSV.
+var seriesNames = d3.keys(data[0])
+.filter(function(key) { 
+if(key!="Year")
+{
+	if(key!="Population")
+	{ {
+		return key;
+	} }
+} 
+    });
+
+// Map the data to an array of arrays of {x, y} tuples.
+  var series = seriesNames.map(function(series) {
+    return data.map(function(d, i) {
+      return {x: +d.Year, y: +d[series], t: +d.Population, drugname: seriesNames[i]};
+    });
+  });
+
+// Compute the scales’ domains.
+x.domain(d3.extent(d3.merge(series), function(d) { return d.x; }));
+y.domain([0,d3.max(d3.merge(series), function(c) { return c.y;})]);
+
+var drugname1 = 0;
+var cnt = 0;
+
+// Add the points! SCATTER PLOT
+svg.selectAll(".series")
+    .data(series)
+    .enter().append("g")
+    .attr("class", function(d, i) { drugname1=seriesNames[i];
+	 return "series1"+drugname1.replace(/\s+/g, ''); })
+    .style("fill", function(d, i) { return z(i); })
+	.selectAll(".points")
+    .data(function(d) { return d; })
+    .enter().append("circle")
+    .attr("id", function(d, i) {temp = "points" + cnt; cnt = cnt + 1; return temp;  })
+    .attr("r", 4.5)
+    .attr("cx", function(d) { return x(d.x); })
+    .attr("cy", function(d) { return y(d.y); })
+	.style("stroke","black")
+	.style("stroke-width",0)
+	.on("click", function(d){
+		var active   = d.active ? false : true,
+        newOpacity = active ? 0 : 1;
+		var strokeWidth = active? 2:0;
+		d3.select(this).transition().duration(300).style("stroke-width",strokeWidth);
+		var id = (this.id)
+		
+		if(active == true) {
+			
+		//append div for tooltip
+		var div = d3.select("body").append("div")	
+				.attr("class", "tooltip")				
+				.attr("id", "div" + id)
+				.style("opacity", 1);
+				
+		div.html("Values in Millions -"+"<br><br>"+"Total Population : " + d.t + "<br>" + "Current Users : " + parseFloat(((d.y * d.t)/100)).toFixed(2) + "<br>" + "Percentage: " + d.y + "%")	
+        .style("left", (d3.event.pageX + 20) + "px")		
+        .style("top", (d3.event.pageY - 68) + "px");		
+	}
+		else{
+			temp = "#div" + id.replace(/ +/g,"");
+			d3.selectAll(temp).remove(); }
+
+			d.active = active;
+	  });
+});
+//END OF SCATTERPLOT
+
+////START OF CHOROPLETH
+MakeChoro("Map12to17.csv");
+////END OF CHOROPLETH
+
+//TRANSITION CODE
+
+var count=0;
+d3.select("#update3")
+.on("click", function () { transition( "data/12to17.tsv") });
+
+d3.select("#update4")
+.on("click", function () { transition("data/18to25.tsv") });
+
+function transition(s) {
+d3.selectAll(".tooltip").remove();
+
+//append div for tooltip
+var div1 = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0).style("background-color","black")
+	.style("color","white");
+
+svg.selectAll(".seriesStimulants").remove();
+svg.selectAll(".seriesPainRelievers").remove();
+svg.selectAll(".seriesTranquilizers").remove();
+svg.selectAll(".seriesSedatives").remove();
+svg.selectAll(".seriesIllicitDrugs").remove();
+svg.selectAll(".seriesMeth").remove();
+svg.selectAll(".seriesMarijuana").remove();
+svg.selectAll(".seriesCocaine").remove();
+svg.selectAll(".seriesHallucinogens").remove();
+svg.selectAll(".seriesPsychotherapeutics").remove();
+
+//count=count+1;
+if (s=="data/12to17.tsv")
+{
+//d3.select("#update3").attr("value","View Trend for Age 18 - 25");
+svg.selectAll("#ageid").remove();
+svg.append("text")
+.attr("id","ageid")
+			.attr("x",488)
+			.attr("y",-68)
+			.text("Age: 12 to 17")
+			.style("font-size",21);
+
+d3.select("#map").remove();
+MakeChoro("Map12to17.csv")
+}
+else{
+
+//d3.select("#update3").attr("value","View Trend for Age 12 - 17");
+svg.selectAll("#ageid").remove();
+svg.append("text")
+.attr("id","ageid")
+			.attr("x",488)
+			.attr("y",-68)
+			.text("Age: 18 to 25")
+			.style("font-size",21);
+
+d3.select("#map").remove();
+MakeChoro("Map18to25.csv")
+}
+
+var parseYear = d3.time.format("%Y").parse;
+var color = d3.scale.category10();
+
+d3.tsv(s,function(error,data) {
+var dnames=[];
+color.domain(d3.keys(data[0]).filter(function(key) {
+		if(key!="Year")
+		{
+			if(key!="Population")
+			{
+			dnames.push(key);
+				return key;
+			}
+		}
+}));
+
+// spacing for the legend
+
+legendSpace = width/dnames.length; 		
+legendSpace = legendSpace + 15;	
+	
+data.forEach(function(d) {
+	d.Year = parseYear(d.Year);
+		});
+	
+var x=d3.time.scale()
+	.range([0,width]);
+
+var y=d3.scale.linear()
+	.range([height-5,0]);	
+
+	var line = d3.svg.line()
+    .x(function(d) { return x(d.Year);})
+    .y(function(d) { return y(d.fertirate);});
+
+var drugs = color.domain()
+			.map(function (name) {
+			return {
+			name : name,
+			values : data.map(function (d) {
+			return {Year: d.Year, fertirate: +d[name]};
+			})
+		};
+	});
+	x.domain(d3.extent(data, function(d) { return d.Year;}));	
+	y.domain([0,d3.max(drugs, function(c) { return d3.max(c.values, function(v) { return v.fertirate; }); })]);
+			
+	var xAxis=d3.svg.axis()
+	.scale(x)
+	.orient("bottom")
+	.ticks(15);
+	
+	var yAxis=d3.svg.axis()
+	.scale(y)
+	.orient("left");
+	
+svg.select(".y.axis")
+.transition()
+.duration(1000)
+.ease("linear")
+.call(yAxis);
+
+svg.selectAll(".line")
+	  .data(drugs)
+      .transition()
+      .duration(1000)
+      .ease("linear")
+      .attr("d",function(d) { return line(d.values); })
+	  .attr("id", function(d) { return 'tag1'+d.name.replace(/\s+/g, '');}) 
+      .style("stroke",function(d) { return color(d.name); })
+	  .style("opacity",1);
+	  
+svg.selectAll(".legend")
+	.data(drugs)
+    .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
+    .transition()
+    .duration(500)
+    .ease("linear")
+    .attr("x", function(d, i){
+	a=(legendSpace/2)+i*legendSpace;
+	if(i==0){a=a-45;}
+	return a; })
+	.attr("y", (margin.top)-210)
+	.style("fill", function(d) { return d.color = color(d.name); })
+	.style("opacity",1)
+	.text(function(d) { return d.name; });
+
+
+svg.selectAll(".legend")
+	.data(drugs)
+	.on("click", function(d){
+      // Determine if current line is visible 
+		var active   = d.active ? false : true,
+                
+		newOpacity = active ? 0.3 : 1;
+		var circleradius=active ? 0 : 4.5;
+		color1 = active ? "grey" : color(d.name);
+		
+		d3.select(this).transition().duration(100)
+                    .style("opacity", newOpacity);
+		
+        d3.selectAll(".tooltip").remove();
+	  // Hide or show the elements based on the ID
+				
+    d3.select("#tag1"+d.name.replace(/\s+/g, ''))
+	.transition().duration(100) 
+	//.style("stroke",color1)
+    .style("opacity", newOpacity); 
+		
+	d3.selectAll("g")
+	.selectAll(".series1"+d.name.replace(/\s+/g, ''))
+	.selectAll("circle")
+	.attr("r",circleradius);
+	
+	d3.selectAll("g").selectAll("circle").style("stroke-width",0);
+     // update3 whether or not the elements are active
+     d.active = active;
+    });
+			
+});	
+
+svg.selectAll("circle").remove();
+
+var parseYear = d3.time.format("%Y").parse;
+var z = d3.scale.category10();	
+	
+//TRANSITION SCATTER PLOT	
+
+d3.tsv(s, function(data)
+{
+// Compute the series names ("y1", "y2", etc.) from the loaded CSV.
+  var seriesNames = d3.keys(data[0])
+      .filter(function(key) { 
+	  if(key!="Year")
+			{
+				if(key!="Population")
+				{{return key;}}} });
+
+  // Map the data to an array of arrays of {x, y} tuples.
+  var series = seriesNames.map(function(series) {
+    return data.map(function(d, i) {
+      return {x: +d.Year, y: +d[series], t: +d.Population, drugname: seriesNames[i]};
+    });
+  });
+
+  // Compute the scales’ domains.
+x.domain(d3.extent(d3.merge(series), function(d) { return d.x; }));
+y.domain([0,d3.max(d3.merge(series), function(c) { return c.y;}) ]);
+    	
+	var drugname1 = 0;
+	var offset = 0;
+	var cnt=0;
+  // Add the points! SCATTER PLOT
+  svg.selectAll(".series")
+    .data(series)
+    .enter().append("g")
+    .attr("class", function(d, i) { drugname1=seriesNames[i];
+	 return "series1"+drugname1.replace(/\s+/g, ''); })
+    .style("fill", function(d, i) { return z(i); })
+    .style("opacity",0)
+	.selectAll(".points")
+    .data(function(d) { return d; })
+    .enter().append("circle")
+	.attr("id", function(d, i) {temp = "points" + cnt; cnt = cnt + 1; return temp;  })
+   //.attr("class", function(d) { return "points"; })
+      .attr("r", 4.5)
+      .attr("cx", function(d) { return x(d.x); })
+      .attr("cy", function(d, i) { return y(d.y)})
+	  .style("stroke","black")
+	  .style("stroke-width",0)
+	  .on("click", function(d){
+			var active   = d.active ? false : true,
+            newOpacity = active ? 0 : 1;
+			var strokeWidth = active? 2:0;
+			d3.select(this).transition().duration(300).style("stroke-width",strokeWidth);
+			var id = (this.id)
+			//var temp1 = "#div" + id;
+			
+			if(active == true) {
+			
+			//append div for tooltip
+			var div = d3.select("body").append("div")	
+				.attr("class", "tooltip")				
+				.attr("id", "div" + id)
+				.style("opacity", 1);
+				
+			div	.html("Values in Millions -"+"<br><br>"+"Total Population : " + d.t + "<br>" + "Current Users : " + parseFloat(((d.y * d.t)/100)).toFixed(2) + "<br>" + "Percentage: " + d.y + "%")	
+                .style("left", (d3.event.pageX + 20) + "px")		
+                .style("top", (d3.event.pageY - 68) + "px");		
+			}
+			else{
+			temp = "#div" + id.replace(/ +/g,"");
+			d3.select(temp).remove();
+			}
+			d.active = active;
+	  });
+
+svg.selectAll(".series1Stimulants").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1PainRelievers").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1Tranquilizers").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1Sedatives").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1IllicitDrugs").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1Meth").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1Marijuana").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1Cocaine").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1Hallucinogens").transition().delay(1000).style("opacity",1);
+svg.selectAll(".series1Psychotherapeutics").transition().delay(1000).style("opacity",1);
+		
+	});
+  }
+
+  function MakeChoro(filename){
+
+		//Width and height
+			var w = 1200;
+			var h = 600;
+
+			//Define map projection
+			var projection = d3.geo.albersUsa()
+								   .translate([w/2, h/2-10])
+								   .scale([1000]);
+
+			//Define path generator
+			var path = d3.geo.path().projection(projection);
+							 
+			//Define quantize scale to sort data values into buckets of color
+			var color = d3.scale.threshold()
+						.range(["rgb(237,248,233)","rgb(186,228,179)","rgb(116,196,118)","rgb(49,163,84)","rgb(0,109,44)"]);
+						
+			//Create SVG element
+			var svg = d3.select("#choropleth")
+						.append("svg")
+						.attr("id","map")
+						.attr("width", w)
+						.attr("height", h);
+									
+			//Create Legend element
+			var legend = svg.selectAll('g.legendEntry')
+			.data(color.range())//.reverse())
+			.enter()
+			.append('g').attr('class', 'legendEntry');
+							
+d3.csv("data/"+filename, function(data) {
+			if (filename=="Map12to17.csv") { 
+			svg.append("text")
+			.attr("x",w/2+43)
+			.attr("y",30)
+			.text("Age: 12 to 17")
+			.style("font-size",21);
+			color.domain([13,37,75,175,306])
+			}
+			
+			else{ 
+			svg.append("text")
+			.attr("x",w/2+43)
+			.attr("y",30)
+			.text("Age: 18 to 25")
+			.style("font-size",21);   
+			color.domain([45,160,300,400,1076])
+			}
+ //Legend 				
+	legend
+    .append('rect')
+    .attr("x", w - 175)
+    .attr("y", function(d, i) {
+       return (300+(i * 20));})
+   .attr("width", 20)
+   .attr("height", 20)
+   .style("stroke", "black")
+   .style("stroke-width", 1)
+   .style("fill", function(d){return d;}); 
+       //the data objects are the fill colors
+	   
+	legend.append('text')
+    .attr("x", w - 150) //leave 5 pixel space after the <rect>
+    .attr("y", function(d, i) {
+    return (300+(i * 20));})
+    .attr("dy", "0.99em") //place text one line *below* the x,y point
+    .text(function(d,i) {
+	
+        var extent = color.invertExtent(d);
+       
+		a=extent[0]+1
+		if (i==0){a=0;}
+		b=extent[1]
+		return a+ " - " +b; });
+    //return format(+extent[0]) + " - " + format(+extent[1]); });
+				
+	svg.append('text')
+	.attr("x", w-225)
+	.attr("y",260)
+	.text("Number of Current Users")
+	.style("font-size",20);
+	
+	svg.append('text')
+	.attr("x", w-155)
+	.attr("y",280)
+	.text("(Thousands)")
+	.style("font-size",16);
+	
+	svg.append("line")
+	.attr("x1",w-205)
+	.attr("y1",290)
+	.attr("x2",w-35)
+	.attr("y2",290)
+	.attr("stroke", "black").style("fill","None").attr("stroke-width",1);;
+				
+				//Load in GeoJSON data
+				d3.json("data/us-states.json", function(json) {
+
+					//Merge the ag. data and GeoJSON
+					//Loop through once for each ag. data value
+					for (var i = 0; i < data.length; i++) {
+				
+						//Grab state name
+						var dataState = data[i].state;
+						
+						//Grab data value and total population, and convert from string to float
+						var dataValue = parseFloat(data[i].value);
+						var popValue=data[i].total;
+						//Find the corresponding state inside the GeoJSON
+						for (var j = 0; j < json.features.length; j++) {
+						
+							var jsonState = json.features[j].properties.name;
+				
+							if (dataState == jsonState) {
+						
+								//Copy the data value into the JSON
+								json.features[j].properties.value = dataValue;
+								json.features[j].properties.total=popValue;
+								//Stop looking through the JSON
+								break;
+								}	
+							}		
+						}
+					
+					//Bind data and create one path per GeoJSON feature
+					svg.selectAll("path")
+					   .data(json.features)
+					   .enter()
+					   .append("path")
+					   .attr("id",function(d) {return d.properties.name;})
+					   .attr("d", path)
+					   .style("stroke","black")
+					   .style("stroke-width",0.5)
+					   .style("fill", function(d) {
+					   	//Get data value
+					   	var value = d.properties.value;
+					   	if (value) { return color(value);} else { return "#ccc"; }
+						})
+						.on("click",function(d) {
+		
+					var active = d.active? false:true;
+					//var newopacity = active? 1 : 0;
+					var strokeWidth = active? 4:0.5;
+		
+		d3.select(this).transition().duration(300).style("stroke-width",strokeWidth);
+		var id=(this.id)
+		id=id.replace(/ +/g, "");
+		//var temp="#div"+id;
+		
+		if(active==true) {
+		//
+		//d3.selectAll(temp).remove();
+		var div = d3.select("body").append("div")   
+			.attr("class", "tooltip")
+			.attr("id","div"+id)
+			.style("opacity", 1);
+		//
+    div.html(d.properties.name + " :<br><br>"+"Current users :" + d.properties.value*1000 +"<br>" +"Total Popn:"+ d.properties.total)
+    .style("left", (d3.event.pageX) + "px")
+    .style("top", (d3.event.pageY -30) + "px");
+		}
+	else{
+		temp="#div"+id.replace(/ +/g, "");		
+		d3.selectAll(temp).remove();	
+	}
+	
+	d.active=active;
+		});
+				});		
+			});
+}
+
+
+}//end of diagram4
+
+function diagram5() { 
+
+
+
+var width = 1200,
+height = 750
+height1 = 700,
+r1=height1/2,
+outerRadius = Math.min(width-160, height1-160) / 2 -10,
+innerRadius = outerRadius - 34;
+outerRadius = outerRadius * 0.75
+innerRadius = innerRadius * 0.75
+
+console.log(outerRadius)
+console.log(innerRadius)
+ 
+var formatPercent = d3.format(".1%");
+ 
+var arc = d3.svg.arc()
+.innerRadius(innerRadius)
+.outerRadius(outerRadius);
+ 
+var layout = d3.layout.chord()
+.padding(.005)
+.sortSubgroups(d3.descending)
+.sortChords(d3.ascending);
+ 
+var path = d3.svg.chord()
+.radius(innerRadius);
+ 
+var svg = d3.select("#chorddiagram").append("svg")
+.attr("width", width)
+.attr("height", height)
+.append("g")
+.attr("id", "circle")
+.attr("transform", "translate(" + (width-440) / 2 + "," + (height1+200) / 2 + ")");
+ 
+svg.append("circle")
+.attr("r", outerRadius);
+
+var div = d3.select("#bodyimages").append("div")	
+    .attr("class", "body_images")
+    .attr("width",30)
+	.attr("height",30)
+    .style("opacity", 0);
+
+//Add Help box
+var helpdiv = d3.select("body").append("div")   
+			.attr("class", "TThelp")
+			.style("opacity", 0);
+			
+var helpcount=0;
+var newopacity=0;
+
+/*d3.select("#help").on("click",function() {
+	
+	if (helpcount%2==0)
+	{newopacity =0.9;helpcount=helpcount+1;}
+	else {newopacity=0;helpcount=helpcount+1;}
+
+	helpdiv.transition().duration(300)
+    .style("opacity", newopacity)
+	
+    helpdiv.html("This is a Chord diagram which shows the adverse health effects of drugs. The drug names are shown in red on the right side of the chord diagram whereas <br><br>Interactions - <br>1] Hover on a chord to see its connection ends.<br>2] Hover on drug names to see detailed representation of effects.<br><br> Click on \"Help\" to close this window.")
+    .style("left", (d3.event.pageX-300) + "px")
+    .style("top", (d3.event.pageY +30) + "px"); })*/
+ 
+d3.csv("data/names.csv", function(drugs) {
+d3.json("data/matrix.json", function(matrix) {
+ 
+// Compute the chord layout.
+layout.matrix(matrix);
+ 
+// Add a group per value.
+var group = svg.selectAll(".group")
+.data(layout.groups)
+.enter().append("g")
+.attr("class", "group")
+.on("mouseover", mouseover)
+.on("mousemove", mousemove)
+.on("mouseout",mouseout)
+ 
+// Add a mouseover title.
+ group.append("title").text(function(d, i) {
+ return drugs[i].name;
+ });
+ 
+
+var color = d3.scale.category20()
+			.domain(drugs.length);
+ 
+// Add the group arc.
+var groupPath = group.append("path")
+.attr("id", function(d, i) { return "group" + i; })
+.attr("d", arc)
+.style("fill", function(d, i){return color(i);})
+
+  
+// Add a text label.
+var groupText = group.append("text")
+.attr("x", 15)
+.each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+  .attr("dy", ".35em")
+  .attr("transform", function(d) {
+    return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+        + "translate(" + (innerRadius + 30) + ")"
+		+ (d.angle > Math.PI ? "rotate(180) " + "translate(" + (innerRadius - 200) + ")" : "");
+  })
+  .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+  .style("font-family","Verdana")
+  .style("fill", function (d,i) { 
+	
+	if (i<=15) {return "#C60500";}
+	else {return "#082E7E";}
+  })
+.text(function(d, i) { return drugs[i].name; });
+ 
+// Add the chords.
+var chord = svg.selectAll(".chord")
+.data(layout.chords)
+.enter().append("path")
+.attr("class", "chord")
+.style("fill", function(d,i) {return color(d.source.index);})
+.attr("d", path);
+ 
+// Add an elaborate mouseover title for each chord.
+ chord.append("title").text(function(d) {
+ return drugs[d.source.index].name
+ + " - " + drugs[d.target.index].name;
+ });
+ 
+function mouseover(d, i) {
+chord.classed("fade", function(p) {
+return p.source.index != i && p.target.index != i;
+});
+}
+
+function mousemove(d, i)	{
+				div.transition()		
+                .duration(2)
+                .style("opacity", .9)
+				div.html("<img class='resize_fit_center' src=" + drugs[i].link + ">")
+      .style("left", 770 + "px")
+      .style("top", 340 + "px");
+}
+
+function mouseout() {
+  div.transition()
+      .duration(500)
+      .style("opacity", 0);
+}
+});
+});
+
+
+}//end of diagram 5
+</script>
+</body>
+</html>
